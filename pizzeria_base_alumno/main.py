@@ -6,6 +6,14 @@ from ingredientes.carne import Carne
 from ingredientes.vegetal import Vegetal
 
 def main():
+    print("""
+  ▄▄▄▄▄▄     ▄▄▄▄▄▄  ▄▄▄▄▄▄     ▄▄▄▄▄       ▄▄      ▄▄▄▄▄   
+ █▀██▀▀▀█▄  █▀ ██   █▀██▀▀▀█▄  ██▀▀▀▀█▄   ▄█▀▀█▄   ██▀▀▀▀█▄ 
+   ██▄▄▄█▀     ██     ██▄▄▄█▀  ▀██▄  ▄▀   ██  ██   ▀██▄  ▄▀ 
+   ██▀▀▀       ██     ██▀▀▀      ▀██▄▄    ██▀▀██     ▀██▄▄  
+ ▄ ██          ██   ▄ ██       ▄   ▀██▄ ▄ ██  ██   ▄   ▀██▄ 
+ ▀██▀        ▄▄██▄▄ ▀██▀       ▀██████▀ ▀██▀  ▀█▄█ ▀██████▀ 
+""")
     pizzeria = Pizzeria()
     pedido = Pedido()
 
