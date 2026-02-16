@@ -11,18 +11,26 @@ class Pizza:
 
     def imprimir_ascii(self):
         """TODO: devolver dibujo ASCII de la pizza"""
-        return """       
+
+        emojis_ingredientes = []
+        emojis_ingredientes.append(self.__ingredientes.append(self.))
+        print(emojis_ingredientes)
+        return """      
                          🍞🍞🍞🍞🍞🍞🍞🍞🍞
                        🍞🍅🍅🍅🍅🍅🍅🍅🍅🍅🍞
-                      🍞🍅                🍅🍞  
-                     🍞🍅                  🍅🍞
-                    🍞🍅                    🍅🍞
-                    🍞🍅                    🍅🍞
-                    🍞🍅         {}         🍅🍞
-                    🍞🍅                    🍅🍞     
-                     🍞🍅                  🍅🍞      
-                      🍞🍅                🍅🍞       
+                      🍞🍅{               }🍅🍞  
+                     🍞🍅{                 }🍅🍞
+                    🍞🍅{                   }🍅🍞
+                    🍞🍅{                   }🍅🍞
+                    🍞🍅{                   }🍅🍞
+                    🍞🍅{                   }🍅🍞     
+                     🍞🍅{                 }🍅🍞      
+                      🍞🍅{               }🍅🍞       
                        🍞🍅🍅🍅🍅🍅🍅🍅🍅🍅🍞        
-.                        🍞🍞🍞🍞🍞🍞🍞🍞🍞
-            """.format(self.__nombre)
+                         🍞🍞🍞🍞🍞🍞🍞🍞🍞
+            """
     
+
+
+
+

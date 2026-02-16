@@ -6,5 +6,12 @@ class Pizzeria:
     
     def mostrar_pedido(self, pizza):
         print("Tu pedido:")
-        print(pizza.imprimir_ascii())   
+        print(pizza.imprimir_ascii())
+
+    def crear_pizza(self, pizza):
+        print("""
+            1.carne
+            2.queso
+            3.vegetal 
+""")
 
