@@ -39,11 +39,12 @@ Ingredientes:
 """)
                 opcion_ingrediente = input("Elige un ingrediente: ")
                 if opcion_ingrediente == "1":
-                    pizza.add_ingrediente(Queso)
+                    # crear instancia de Queso y añadirla
+                    pizza.add_ingrediente(Queso("Queso"))
                 elif opcion_ingrediente == "2":
-                    pizza.add_ingrediente(Carne)
+                    pizza.add_ingrediente(Carne("Carne"))
                 elif opcion_ingrediente == "3":
-                    pizza.add_ingrediente(Vegetal)
+                    pizza.add_ingrediente(Vegetal("Vegetal"))
                 elif opcion_ingrediente == "0":
                     break
                 else:
