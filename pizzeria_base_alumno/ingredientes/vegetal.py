@@ -3,6 +3,6 @@ from ingredientes.ingrediente import Ingrediente
 class Vegetal(Ingrediente):
     """TODO: completar clase Vegetal"""
     def __init__(self, nombre):
-        super().__init__(nombre, "🌱")
+        super().__init__(nombre, "🌱", 0.17)
 
     

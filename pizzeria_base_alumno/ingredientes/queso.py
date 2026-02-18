@@ -2,5 +2,5 @@ from ingredientes.ingrediente import Ingrediente
 
 class Queso(Ingrediente):
     def __init__(self, nombre):
-        super().__init__(nombre, "🧀")
+        super().__init__(nombre, "🧀", 0.5)
 
