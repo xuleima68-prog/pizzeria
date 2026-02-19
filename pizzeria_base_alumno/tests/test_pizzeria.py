@@ -27,9 +27,9 @@ class TestIngrediente(unittest.TestCase):
         vegetal = Vegetal("Pimiento")
 
         self.assertEqual(carne.get_nombre(), "Pollo")
-        self.assertEqual(carne.get_simbolo(), "@")
+        self.assertEqual(carne.get_simbolo(), "🥩")
         self.assertEqual(vegetal.get_nombre(), "Pimiento")
-        self.assertEqual(vegetal.get_simbolo(), "+")
+        self.assertEqual(vegetal.get_simbolo(), "🌱")
 
 
 class TestPizza(unittest.TestCase):
@@ -57,8 +57,8 @@ class TestPizza(unittest.TestCase):
 
         ascii_repr = pizza.imprimir_ascii()
         self.assertIn("🧀", ascii_repr)
-        self.assertIn("@", ascii_repr)
-        self.assertIn("+", ascii_repr)
+        self.assertIn("🥩", ascii_repr)
+        self.assertIn("🌱", ascii_repr)
 
 
 class TestPedido(unittest.TestCase):
