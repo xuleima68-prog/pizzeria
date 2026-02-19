@@ -37,6 +37,3 @@ class Pizza:
 🍞{"🍅"*(len(str_emoji)+2)}🍞
 {"  "}{"🍞"*(len(str_emoji)+2)}
                 """
-
-        carne * 2
-        vegetal * 0.222222
