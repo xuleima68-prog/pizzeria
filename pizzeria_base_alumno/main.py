@@ -31,12 +31,12 @@ def main():
             
             while True:
                 print("""
-Ingredientes:
-                1. Queso
-                2. Carne
-                3. Vegetal
-                0. Terminar pizza                      
-""")
+                    Ingredientes:
+                    1. Queso
+                    2. Carne
+                    3. Vegetal
+                    0. Terminar pizza                      
+                """)
                 opcion_ingrediente = input("Elige un ingrediente: ")
                 if opcion_ingrediente == "1":
                     # crear instancia de Queso y añadirla
@@ -47,25 +47,6 @@ Ingredientes:
                     pizza.add_ingrediente(Vegetal("Vegetal"))
                 elif opcion_ingrediente == "0":
                     break
-                else:
-                    break
-            """
-                Ingredientes:
-                1. Queso
-                2. Carne
-                3. Vegetal
-                0. Terminar pizza
-                Elige ingrediente: 1
-
-                Ingredientes:
-                1. Queso
-                2. Carne
-                3. Vegetal
-                0. Terminar pizza
-                Elige ingrediente: 0
-            """
-            print("ingredientes")
-
             pedido.add_pizza(pizza)
         elif opcion == "2":
             pedido.mostrar_pedido()

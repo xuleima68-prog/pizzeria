@@ -10,4 +10,8 @@ class Pedido:
             print(pizza.get_nombre())
             print(pizza.imprimir_ascii())
     
+    def calcular_precio(self):
+        precio_pedido = 0
+        for pizza in self.__pizzas:
+            precio_pedido += pizza.calcular_precio()
     
