@@ -25,9 +25,9 @@ class Pizza:
             {"  "}{"🍞"*(len(str_emoji)+2)}
             🍞{"🍅"*(len(str_emoji)+2)}🍞
             {"🍞🍅"}{str_emoji}{"🍅🍞"}
+            {"🍞🍅"}{str_emoji[::-1]}{"🍅🍞"}
             {"🍞🍅"}{str_emoji}{"🍅🍞"}
-            {"🍞🍅"}{str_emoji}{"🍅🍞"}
-            {"🍞🍅"}{str_emoji}{"🍅🍞"}
+            {"🍞🍅"}{str_emoji[::-1]}{"🍅🍞"}
             {"🍞🍅"}{str_emoji}{"🍅🍞"}
             🍞{"🍅"*(len(str_emoji)+2)}🍞
             {"  "}{"🍞"*(len(str_emoji)+2)}
